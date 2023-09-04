@@ -8,8 +8,6 @@ bool solution(string s)
     bool answer = true;
     int left= 0;
 
-    //if(s[s.size()-1] == '(') return false;
-    
     for(int i=0; i<s.size(); i++){    
         if(s[i] == '(') left++;
         else left--;
