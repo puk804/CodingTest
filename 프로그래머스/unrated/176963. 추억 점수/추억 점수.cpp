@@ -19,7 +19,7 @@ vector<int> solution(vector<string> name, vector<int> yearning, vector<vector<st
             year += data[photo[i][j]];
         }
         answer.push_back(year);
-    } 
+    }
     
     return answer;
 }
